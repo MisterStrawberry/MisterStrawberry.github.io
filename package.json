@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "vp dev",
-    "build": "npm run fix && tsc -b && vp build",
+    "build": "tsc -b && vp build",
     "lint": "oxlint",
     "fmt": "oxfmt",
     "fix": "oxfmt && oxlint --fix",
